@@ -30,6 +30,7 @@ body{
     background-color: rgba(255, 255, 255, 0.315);
     backdrop-filter: blur(7px);
     border-radius: 10px;
+    overflow-y: auto;
 }
 
 #btn{
@@ -113,3 +114,22 @@ input::placeholder{
     border: none;
     background-color: transparent;
 }
+
+@media (max-width:500px){
+    #title{
+       font-size: 18px;
+       margin: 15px;
+    }
+
+    #input_text{
+  font-size: 16px;
+  width: 100%;
+    }
+
+    #btn{
+        font-size: 14px;
+        margin-top: 5px;
+        width: 100%;
+    }
+}
+
